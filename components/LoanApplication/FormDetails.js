@@ -587,7 +587,7 @@ const FormDetails = (props) => {
           <Col span={24} style={{ fontWeight: "bold", marginTop: "2%" }}>
             <Row>
               <Col span={12}>
-                Lender's Signature:
+                Lender&apos;s Signature:
                 <Upload
                   accept="image/*"
                   fileList={lenderSignatureFile}
@@ -601,7 +601,7 @@ const FormDetails = (props) => {
                 />
               </Col>
               <Col span={12}>
-                Borrower's Signature:
+                Borrower&apos;s Signature:
                 <Upload
                   accept="image/*"
                   fileList={loanApplicationForm[0].loan_agreement.signature}
