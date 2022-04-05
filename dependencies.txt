@@ -1,0 +1,4 @@
+//ant desgin
+npm install antd @ant-design/icons --save
+import 'antd/dist/antd.css' at pages/_app.js
+npm install react-currency-formatter bizcharts @zeit/next-css react-highlight-words universal-cookie axios
