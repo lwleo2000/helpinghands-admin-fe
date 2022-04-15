@@ -140,7 +140,7 @@ const LoanApplicationList = (props) => {
   const pageHeader = (
     <PageHeader
       style={{ backgroundColor: "#fff", marginTop: 4 }}
-      title="Active Loan"
+      title="Loan Application"
     />
   );
   const columns = [

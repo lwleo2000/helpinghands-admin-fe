@@ -148,7 +148,7 @@ const LoanApproval = (props) => {
   const pageHeader = (
     <PageHeader
       style={{ backgroundColor: "#fff", marginTop: 4 }}
-      title="Loan Application"
+      title="Loan Approval"
     />
   );
 

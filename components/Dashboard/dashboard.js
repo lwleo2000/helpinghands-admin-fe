@@ -156,7 +156,7 @@ const Dashboard = (props) => {
           </Col>
           <Col span={10}>
             <Card
-              title="Potential Loan Default Pie Chart"
+              title="Potential Loan Default"
               loading={loading}
               bodyStyle={{
                 paddingLeft: loading ? 24 : 0,

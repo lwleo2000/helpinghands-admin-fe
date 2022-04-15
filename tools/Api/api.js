@@ -2,7 +2,7 @@ import axios from "axios";
 import Cookies from "universal-cookie";
 
 // let baseURL = "http://192.168.1.104:8001";
-let baseURL = "https://mighty-caverns-09492.herokuapp.com"; // production
+let baseURL = "https://mighty-garden-27477.herokuapp.com"; // production
 
 let instance = axios.create({
   baseURL: baseURL,
