@@ -380,7 +380,10 @@ const LoanApproval = (props) => {
                     bankAccountName: value.bank_information.bank_account_name,
                   });
                 }}
-                disabled={value.loan_status !== "Approved"}
+                disabled={
+                  value.loan_status !== "Approved" &&
+                  value.loan_agreement.agree !== true
+                }
               >
                 Disburse Loan
               </Menu.Item>
