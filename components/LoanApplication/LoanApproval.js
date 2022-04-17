@@ -381,7 +381,7 @@ const LoanApproval = (props) => {
                   });
                 }}
                 disabled={
-                  value.loan_status !== "Approved" &&
+                  value.loan_status !== "Approved" ||
                   value.loan_agreement.agree !== true
                 }
               >
