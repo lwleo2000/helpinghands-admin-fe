@@ -258,7 +258,7 @@ const LoanPlanList = (props) => {
                   });
                   setShowDeactivateLoanPlanModal(true);
                 }}
-                disabled={value.activated !== true}
+                disabled={value.activated !== false}
               >
                 Delete Loan Plan
               </Menu.Item>
