@@ -331,7 +331,11 @@ const LoanApproval = (props) => {
             <Menu>
               <Menu.Item
                 onClick={() =>
-                  value.loan_status === "Approved"
+                  value.loan_status === "Approved" ||
+                  value.loan_status === "Rejected" ||
+                  value.loan_status === "Suspended" ||
+                  value.loan_status === "Loan Disbursed" ||
+                  value.loan_status === "Fully Paid"
                     ? window.open(
                         "form-details?read_only=true&applicationNumber=" +
                           value.application_id
